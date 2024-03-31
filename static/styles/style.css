@@ -38,3 +38,34 @@ h3 {
 .imginfo {
   margin-left: auto;
 }
+
+.section2 {
+  background-color: #ffffff;
+}
+.bluetext {
+  color: #0e357c;
+  display: block;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.blueroundedbutton {
+  display: block;
+  text-align: center;
+  background-color: #0e357c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  transition: transform 0.2s ease;
+}
+
+.blueroundedbutton:hover {
+  transform: scale(1.1);
+}
