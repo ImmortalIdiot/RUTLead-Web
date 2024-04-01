@@ -63,3 +63,43 @@ h2 {
     justify-content: center;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .welcome-section {
+    padding: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .image-container img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .welcome-section {
+    padding: 80px;
+    text-align: center;
+  }
+}
