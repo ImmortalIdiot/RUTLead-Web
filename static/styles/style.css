@@ -31,8 +31,21 @@ h2 {
   align-items: center;
 }
 
+.blue-button {
+  display: block;
+  text-align: center;
+  background-color: #0e357c;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+
 .intermediate-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
   color: #0e357c;
   justify-content: center;
