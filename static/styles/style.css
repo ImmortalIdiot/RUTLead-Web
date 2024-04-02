@@ -38,9 +38,15 @@ h2 {
   border-radius: 5px;
   border: none;
   color: white;
+  cursor: pointer;
   font-size: 24px;
   padding: 10px 20px;
   margin-top: 30px;
+  transition: 0.2s;
+}
+
+.blue-button:hover {
+  transform: scale(1.1);
 }
 
 .intermediate-section {
