@@ -31,6 +31,15 @@ h2 {
   align-items: center;
 }
 
+.intermediate-section {
+  display: flex;
+  align-items: center;
+  color: #0e357c;
+  justify-content: center;
+  font-size: 1.8em;
+  text-align: center;
+}
+
 @media only screen and (max-width: 767px) {
   .section {
     padding: 30px;
@@ -39,6 +48,10 @@ h2 {
     justify-content: center;
     flex-direction: column;
     position: relative;
+  }
+
+  .intermediate-section {
+    width: 100%;
   }
 
   h1 {
