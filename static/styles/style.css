@@ -59,6 +59,16 @@ h2 {
   text-align: center;
 }
 
+.manual-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #0e357c;
+  justify-content: center;
+  font-size: 1.8em;
+  text-align: center;
+}
+
 @media only screen and (max-width: 767px) {
   .section {
     padding: 30px;
