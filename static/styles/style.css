@@ -31,6 +31,67 @@ h2 {
   align-items: center;
 }
 
+.blue-button {
+  display: block;
+  text-align: center;
+  background-color: #0e357c;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  transition: 0.2s;
+}
+
+.blue-button:hover {
+  transform: scale(1.1);
+}
+
+.intermediate-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0e357c;
+  justify-content: center;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.manual-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #0e357c;
+  justify-content: center;
+  font-size: 1.8em;
+  text-align: center;
+}
+.flex-item {
+  width: 500px;
+}
+
+.flex-item img {
+  width: 15%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.reason {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.reason img {
+  margin-right: 20px;
+}
+
 @media only screen and (max-width: 767px) {
   .section {
     padding: 30px;
@@ -39,6 +100,14 @@ h2 {
     justify-content: center;
     flex-direction: column;
     position: relative;
+  }
+
+  .intermediate-section {
+    width: 100%;
+  }
+
+  .flex-item {
+    max-width: 300px;
   }
 
   h1 {
@@ -57,10 +126,22 @@ h2 {
     width: 100%;
   }
 
-  .image-container img {
+  .manual-section {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .image-welcome img {
     max-width: 80%;
     height: auto;
     justify-content: center;
+  }
+
+  .image-diagram {
+    max-width: 80%;
   }
 }
 
@@ -79,12 +160,12 @@ h2 {
     justify-content: center;
   }
 
-  .image-container {
+  .image-welcome {
     margin-top: 20px;
     text-align: center;
   }
 
-  .image-container img {
+  .image-welcome img {
     max-width: 80%;
     display: block;
     margin: 0 auto;
@@ -109,7 +190,11 @@ h2 {
     padding: 80px;
   }
 
-  .image-container {
+  .flex-item{
+    margin-right: 30px;
+  }
+
+  .image-welcome {
     margin-left: auto;
   }
 
