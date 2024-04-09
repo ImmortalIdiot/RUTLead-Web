@@ -6,7 +6,7 @@ body {
     background: linear-gradient(to right, #0e357c, #2860c7);
     background-size: cover;
     display: flex;
-
+    justify-content: center
 }
 .col {
     display: flex;
@@ -20,6 +20,8 @@ body {
     padding: 80px;
     color: white;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -42,7 +44,6 @@ h2{
     border-radius: 15px;
     padding: 40px;
     margin: auto;
-    margin-right: 80px;
 }
 h3{
     color:#2860c7;
