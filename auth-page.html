@@ -16,12 +16,24 @@
       <form action>
         <h3>Авторизация</h3>
         <div class="form-group">
-          <div class="form-wrapper">
-            <input type="text" name="institute" placeholder="Институт" class="form-text" style="margin-right: 10px;">
-          </div>
-          <div class="form-wrapper">
-            <input type="text" name="course" placeholder="Курс" class="form-text">
-          </div>
+          <select style="margin-right: 10px;">
+            <option value="institute">Институт</option>
+            <option value="ВИШ">ВИШ</option>
+            <option value="ИМТК">ИМТК</option>
+            <option value="ИПСС">ИПСС</option>
+            <option value="ИТТСУ">ИТТСУ</option>
+            <option value="ИУЦТ">ИУЦТ</option>
+            <option value="ИЭФ">ИЭФ</option>
+            <option value="ЮИ">ЮИ</option>
+          </select>
+          <select>
+            <option value="КУРС">Курс</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
         </div>
         <div class="form-wrapper">
           <input type="email" name="email" placeholder="Почта" class="form-text">
