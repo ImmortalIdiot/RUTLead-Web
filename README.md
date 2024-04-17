@@ -21,18 +21,20 @@ Authorization page gives you opportunity to authorize:) Thats it
 </div>
 <h2>HTML&CSS coding</h2>
 As already said we made coding for our designs. Those designs almost fully converted to adaptive coding, due to that you may use this web-service on any devices(PCs, tablets, smartphones)
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            //Your content
-            </div>
-        </div>
-    </div>
-</pre>
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<body></body>
+```
+
 <h2>Logics</h2>
-In progress...
+In progress
 
 
 
