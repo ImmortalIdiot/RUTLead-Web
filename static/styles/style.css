@@ -42,7 +42,7 @@ h2 {
   font-size: 24px;
   padding: 10px 30px;
   margin-top: 30px;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .blue-button:hover {
@@ -123,7 +123,13 @@ h2 {
   transition: background-color 0.3s, color 0.3s;
   font-size: 24px;
   padding: 10px 15% 10px 1%;
+  transition: 0.3s;
 }
+
+.toggle-button:hover {
+  transform: scale(1.1);
+}
+
 .options-grid {
   display: grid;
   grid-template-columns: repeat(7, 14.28%);
@@ -134,6 +140,7 @@ h2 {
 .option-button {
   margin: 10px;
   font-size: 24px;
+  transition: 0.3s;
   padding: 60px 15px 60px 15px;
   border: 3px solid #0e357c;
   background-color: #fff;
@@ -147,6 +154,7 @@ h2 {
 .option-button:hover {
   background-color: #0e357c;
   color: #fff;
+  transform: scale(1.1);
 }
 
 
