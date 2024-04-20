@@ -92,6 +92,58 @@ h2 {
   margin-right: 20px;
 }
 
+.demo {
+  margin: 5% auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* скрываем чекбоксы и блоки с содержанием */
+.hide {
+  display: none;
+}
+.hide + button {
+  padding: 0;
+  color: #0e357c;
+  cursor: pointer;
+  display: inline-block;
+
+}
+/* оформляем текст кнопки */
+.toggle-button {
+  display: block;
+  text-align: center;
+  border: 2px solid #0e357c; /* Синяя обводка */
+  background-color: transparent; /* Прозрачный фон */
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 24px;
+  padding: 10px 40px;
+}
+
+/* оформляем кнопки для выбора */
+.option-button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background-color: #0e357c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+/* когда чекбокс активен показываем блоки с содержанием */
+.hide:checked + button + div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 5px;
+  padding: 10px;
+}
+
 @media only screen and (max-width: 767px) {
   .section {
     padding: 30px;
@@ -190,7 +242,7 @@ h2 {
     padding: 80px;
   }
 
-  .flex-item{
+  .flex-item {
     margin-right: 30px;
   }
 
